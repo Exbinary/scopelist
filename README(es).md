@@ -32,6 +32,8 @@ Puedes editar las listas de nombres y/o apellidos contempladas en /data.
 La opcion de tamaño 'Extra' corta el archivo resultante a 1 millon y medio de palabras en la lista. Si quieres una lista mayor, puedes editar el script añadiendo un numero mayor (sobre la linea 172)
 
 Tanto para listas en Ingles o Español, si no has conseguido resultados, recomiendo que uses la otra variante de idioma. (Ejemplo: Si elegiste LATAM, prueba de nuevo con España)
+
+Si quieres que las palabras generadas se copien al archivo con mayor aleatoriedad en el orden, 'des-comenta' la linea 199 (Borra el '#').
 ________________
 
 ________________
