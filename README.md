@@ -1,4 +1,4 @@
-# make_scope_list (version 2)
+# scopelist
 This python tool is designed to create a 'targeted' wordlist to use with any util that uses a wordlist.txt like Brute Forcing tools (Hydra, wfuzz, and more...)
 
 The goal is to narrow the contents of the wordlist to a scope that matches the target user.
