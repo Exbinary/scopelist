@@ -33,6 +33,8 @@ Feel free to edit the source lists in  /data.
 The Extra size option cuts the wordlist to 1 and a half mill. words. To obtain bigger lists feel free to toggle the size of Extra option to a bigger number if your system can handle it ( around line 172 ).
 
 Either for english or spanish target/s, if you didnt get results with your scoped wordlist I recommend trying the other variant of the selected language by running the script again.
+
+If you want the words to be shuffled before they are printed in the file, you can uncomment line 199.
 ________________
 
 ________________
