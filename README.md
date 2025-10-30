@@ -1,4 +1,5 @@
 # scopelist
+###### [Instrucciones en Español  -  [README(es).md](https://github.com/Exbinary/scopelist/blob/main/README(es).md)]
 This python tool is designed to create a 'targeted' wordlist to use with any util that uses a wordlist.txt like Brute Forcing tools (Hydra, wfuzz, and more...)
 
 The goal is to narrow the contents of the wordlist to a scope that matches the target user.
