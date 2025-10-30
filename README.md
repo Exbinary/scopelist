@@ -41,4 +41,4 @@ ________________
 
 ###### This is what I consider my first ever 'relevant' personal programming project in python. Any issue, idea, comment will be read and appreciated.
 
-###### Created by Exbinary
+###### Tool created by Exbinary
