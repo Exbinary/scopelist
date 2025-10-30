@@ -1,4 +1,4 @@
-# scopelisthttps://github.com/Exbinary/scopelist
+# scopelist
 Esta herramienta hecha con python ha sido diseñada para crear una 'wordlist' que servira para utilidades que requieren de una lista (wordlist.txt), como herramientas de Fuerza Bruta (Hydra, wfuzz, etc...)
 
 El objetivo es simplificar la lista de manera que cumpla con los rasgos del usuario 'victima' 
