@@ -18,7 +18,7 @@ Actualmente hay 4 opciones de lenguaje:
 
 1 - UK english (Ingles Europeo [UK, Irlanda, Nordicos...])
 
-2 - US english (Ingles Americano)https://github.com/Exbinary/scopelist
+2 - US english (Ingles Americano)
 
 3 - Spain spanish (Español de España)
 
