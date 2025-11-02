@@ -45,9 +45,9 @@ def extend_name(first_name, second_names=None):
     #variations.append(f"{first_name}_")
 
     
-    if second_names:
-        for sn in second_names:
-            variations.append(f"{first_name}_{sn}")
+    #if second_names:
+        #for sn in second_names:
+            #variations.append(f"{first_name}_{sn}")
             #variations.append(f"_{first_name}_{sn}")
             #variations.append(f"{first_name}_{sn}_")
             #variations.append(f"{sn}_{first_name}")
