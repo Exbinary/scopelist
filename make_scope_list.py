@@ -68,26 +68,32 @@ def extend_name_mode2(first_name, second_name=None, second_names_list=None):
     if leet != first_name:
         variants.append(leet)
 
+    if second_name:
+        variants.append(f"{first_name}{second_name}")
+        #variants.append(f"{second_name}{first_name}")
+        variants.append(f"{first_name}.{second_name}")
+        #variants.append(f"{second_name}.{first_name}")
     
+
     for i in range(1, 100):
         variants.append(f"{first_name}{i}")
-        variants.append(f"{i}{first_name}")
+        #variants.append(f"{i}{first_name}")
 
     for year in range(1970, 2027):
         variants.append(f"{first_name}{year}")
 
     
-    if second_name:
-        variants.append(f"{first_name}{second_name}")
-        variants.append(f"{second_name}{first_name}")
-        variants.append(f"{first_name}.{second_name}")
-        variants.append(f"{second_name}.{first_name}")
+    #if second_name:
+        #variants.append(f"{first_name}{second_name}")
+        #variants.append(f"{second_name}{first_name}")
+        #variants.append(f"{first_name}.{second_name}")
+        #variants.append(f"{second_name}.{first_name}")
 
     
     if second_names_list:
         for sn in second_names_list:
             variants.append(f"{first_name}_{sn}")
-            variants.append(f"{sn}_{first_name}")
+            #variants.append(f"{sn}_{first_name}")
 
     return list(set(variants))  
 
@@ -130,7 +136,7 @@ if mode == "2":
 
     
     all_names = extend_name_mode2(first_name, second_name, second_names_list)
-    random.shuffle(all_names)
+    
 
    
     with open(f"{first_name}_wordlist.txt", "w", encoding="utf-8") as f:
